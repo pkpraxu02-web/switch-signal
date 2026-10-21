@@ -1,0 +1,10 @@
+# Competitors to monitor. trustpilot = domain slug on trustpilot.com/review/<slug>
+competitors:
+  - {name: Eventbrite,    trustpilot: eventbrite.com}
+  - {name: Ticket Tailor, trustpilot: tickettailor.com}
+  - {name: Townscript,    trustpilot: townscript.com}
+  - {name: Eventzilla,    trustpilot: eventzilla.net}
+  - {name: Humanitix,     trustpilot: humanitix.com}
+  - {name: Ticketsauce,   trustpilot: ticketsauce.com}
+# Markets Ticmint actively sells into (ISO country codes). Used for the enrichment score.
+markets: {IN: India, GB: UK, AE: UAE, US: US}

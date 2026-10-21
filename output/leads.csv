@@ -1,0 +1,67 @@
+lead_id,tier,score,competitor,source,review_date,rating,persona,primary_complaint,switch_intent,reviewer,role,company_size,industry,country,segment,evidence_quote,review_url,score_rationale,draft_subject,draft_body,draft_check,data_origin,last_updated,status,owner,notes
+fa71acd11a31,A,95.6,Eventbrite,capterra,2026-09-29,2.0,organizer,branding_whitelabel,yes,Marcus T.,Founder,11-50 employees,Music,GB,self_serve,"Buyers see their logo, not ours, and their emails promote other events to our attendees.",https://example.invalid/fixture/capterra-1,"severity 0.88 | fit 1.00 (branding_whitelabel) | recency 1.00 | persona organizer | enrichment 1.00 (self_serve, UK) | stated switch intent",Limited control over how your event page and checkout look at Eventbrite,"Hi Marcus,
+
+I came across your public Capterra review of Eventbrite, where you raised limited control over how your event page and checkout look. That is the exact problem Ticmint was built around.
+
+Growth includes a custom domain, branded checkout, and branded confirmation emails and QR tickets.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+52847c865d9f,A,90.5,Eventbrite,trustpilot,2026-10-17,1.0,organizer,payout_cashflow,yes,Sana K.,,,,AE,unknown,"Funds withheld for weeks, terrible for cash flow.",https://example.invalid/fixture/tp-2,"severity 0.95 | fit 0.85 (payout_cashflow) | recency 1.00 | persona organizer | enrichment 0.60 (unknown, UAE) | stated switch intent",How long it takes to get paid out after an event at Eventbrite,"Hi Sana,
+
+I came across your public Trustpilot review of Eventbrite, where you raised how long it takes to get paid out after an event. That is the exact problem Ticmint was built around.
+
+You connect your own payment gateway and funds settle to your account in T+3 days.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+091c1af724cf,A,81.5,Eventbrite,g2,2026-10-08,3.0,organizer,fees_pricing,,Priya N.,Events Manager,11-50 employees,Nonprofit,IN,self_serve,"Payouts also come only after the event, which hurts our cash flow.",https://example.invalid/fixture/g2-1,"severity 0.55 | fit 0.95 (fees_pricing) | recency 1.00 | persona organizer | enrichment 0.85 (self_serve, India)",Fees stacking up on every ticket at Eventbrite,"Hi Priya,
+
+I came across your public G2 review of Eventbrite, where you raised fees stacking up on every ticket. That is the exact problem Ticmint was built around.
+
+On the Growth plan the Ticmint platform fee is 2%, plus payment gateway charges. In India, plans start from ₹249/month. For context, the free Starter plan carries a 5% platform fee.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+3a1042b1b1c9,A,77.4,Ticket Tailor,g2,2026-10-14,4.0,organizer,local_payments,,Arjun S.,Marketing Head,51-200 employees,Events Services,IN,mid_market,"Doesn't support UPI or Razorpay, so a lot of our Indian buyers drop off at payment.",https://example.invalid/fixture/g2-2,"severity 0.42 | fit 0.90 (local_payments) | recency 1.00 | persona organizer | enrichment 1.00 (mid_market, India)",Payment options that don't match how your buyers pay at Ticket Tailor,"Hi Arjun,
+
+I came across your public G2 review of Ticket Tailor, where you raised payment options that don't match how your buyers pay. That is the exact problem Ticmint was built around.
+
+Supported gateways include Razorpay, UPI, Stripe, Revolut and Apple Pay. In India, plans start from ₹249/month.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+35ef0ef784db,A,76.1,Eventbrite,capterra,2025-12-02,2.0,organizer,fees_pricing,,Hannah R.,Owner,2-10 employees,Education,GB,self_serve,"Hidden costs everywhere: service charge, processing fee, and now a subscription tier, so it feels like paying twice.",https://example.invalid/fixture/capterra-3,"severity 0.68 | fit 0.95 (fees_pricing) | recency 0.25 | persona organizer | enrichment 1.00 (self_serve, UK)",Fees stacking up on every ticket at Eventbrite,"Hi Hannah,
+
+I came across your public Capterra review of Eventbrite, where you raised fees stacking up on every ticket. That is the exact problem Ticmint was built around.
+
+On the Growth plan the Ticmint platform fee is 2%, plus payment gateway charges. In the UK, plans start from £19/month. For context, the free Starter plan carries a 5% platform fee.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+2c5981500acf,A,73.8,Townscript,capterra,2026-08-03,3.0,organizer,reliability_checkin,,Rohan M.,Director,2-10 employees,Sports,IN,self_serve,Reporting is basic and check-in app crashed during our last race.,https://example.invalid/fixture/capterra-2,"severity 0.55 | fit 0.70 (reliability_checkin) | recency 0.80 | persona organizer | enrichment 1.00 (self_serve, India)",Problems on event day at Townscript,"Hi Rohan,
+
+I came across your public Capterra review of Townscript, where you raised problems on event day. That is the exact problem Ticmint was built around.
+
+Every ticket gets a dynamic QR code and there is a mobile scanning app with zone-based entry rules.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+69bc3a95da43,A,73.8,Ticketsauce,g2,2026-09-18,3.0,organizer,feature_gaps,,Omar A.,Event Producer,2-10 employees,Nightlife,AE,self_serve,Missing features like seat maps and WhatsApp reminders.,https://example.invalid/fixture/g2-4,"severity 0.55 | fit 0.70 (feature_gaps) | recency 0.80 | persona organizer | enrichment 1.00 (self_serve, UAE)",Features you needed that weren't there at Ticketsauce,"Hi Omar,
+
+I came across your public G2 review of Ticketsauce, where you raised features you needed that weren't there. That is the exact problem Ticmint was built around.
+
+It includes email marketing, abandoned-cart workflows, affiliate links and add-ons; seat management and API access are Enterprise.
+
+If you tell me roughly how many tickets you sell per event and your average ticket price, I will work out what the fees would look like on Ticmint versus your current setup. Just the numbers, no deck.
+
+{{sender}}",ok,SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+271fe3d16f6d,C,15.0,Eventbrite,trustpilot,2026-10-12,1.0,attendee,,,Dave L.,,,,US,unknown,,https://example.invalid/fixture/tp-1,"severity 0.45 | fit 0.00 (none) | recency 1.00 | persona attendee | enrichment 0.60 (unknown, US)",,,no draft (tier C / attendee),SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+4027b8147809,C,15.0,Townscript,trustpilot,2026-10-10,2.0,attendee,support_quality,,Meera J.,,,,IN,unknown,Worst customer support.,https://example.invalid/fixture/tp-3,"severity 0.62 | fit 0.60 (support_quality) | recency 1.00 | persona attendee | enrichment 0.60 (unknown, India)",,,no draft (tier C / attendee),SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,
+4da445de80e3,C,15.0,Eventzilla,g2,2026-10-01,5.0,organizer,,,Lena P.,Coordinator,11-50 employees,Education,US,self_serve,,https://example.invalid/fixture/g2-3,"severity 0.05 | fit 0.00 (none) | recency 1.00 | persona organizer | enrichment 0.85 (self_serve, US)",,,no draft (tier C / attendee),SYNTHETIC FIXTURE,2026-10-20 15:03:52,new,,

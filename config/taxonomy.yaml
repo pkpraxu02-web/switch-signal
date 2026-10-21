@@ -1,0 +1,170 @@
+# Complaint taxonomy. `ticmint_fit` = how directly Ticmint's product answers the complaint (0-1).
+# Set from Ticmint's own pricing/white-label pages (see ticmint_facts.yaml). Edit freely; no code change needed.
+categories:
+  fees_pricing:
+    label: Fees & pricing
+    ticmint_fit: 0.95
+    patterns:
+      - '\bfees?\b'
+      - 'service (charge|fee)'
+      - 'commission'
+      - '\bexpensive\b'
+      - 'too high'
+      - 'per ticket'
+      - 'processing (fee|charge)'
+      - 'overpriced|pricey'
+      - 'cut(s|ting)? into (our |my )?(margin|profit|revenue)'
+      - 'paying twice'
+      - 'subscription tier'
+    strong:
+      - 'hidden (cost|fee|charge)'
+      - 'fees? (are|is|were) (way |far |too |exceptionally |ridiculously )?(high|steep|ridiculous|insane|crazy)'
+      - 'cut(s|ting)? into (our |my )?(margin|profit|revenue)'
+      - 'paying twice'
+      - 'fees? (keep|kept) (going up|rising|increas)'
+  payout_cashflow:
+    label: Payouts & cash flow
+    ticmint_fit: 0.85
+    patterns:
+      - 'payouts?'
+      - 'paid out'
+      - 'funds? (on hold|held|withheld|frozen)'
+      - 'withh(e|o)ld'
+      - 'settlement'
+      - 'cash ?flow'
+      - 'after the event'
+      - 'reserve'
+      - 'documentation to prove'
+    strong:
+      - 'payouts? (on hold|delayed|late|took|taking)'
+      - 'funds? (on hold|held|withheld|frozen)'
+      - 'difficulty accessing (my |our )?payout'
+      - 'cash ?flow'
+  branding_whitelabel:
+    label: Branding & white-label
+    ticmint_fit: 1.0
+    patterns:
+      - 'white.?label'
+      - 'custom(i[sz]ation| domain| branding)'
+      - '\bbranding\b'
+      - 'our brand'
+      - 'their (logo|brand)'
+      - 'own domain'
+      - 'borrowing their'
+      - 'look(s)? like eventbrite'
+    strong:
+      - 'cannot (fully )?white.?label'
+      - "can.?t (fully )?(white.?label|brand)"
+      - '(very |extremely |severely )?limited (page )?customi[sz]ation'
+  data_ownership:
+    label: Attendee data & audience ownership
+    ticmint_fit: 1.0
+    patterns:
+      - 'attendee data'
+      - '(customer|buyer|audience) data'
+      - 'own (the |our |my )?(data|audience|list)'
+      - 'email list'
+      - 'export (the |our |my )?(data|attendees|list)'
+      - 're-?market|re-?target'
+      - 'their audience'
+      - 'competitor events?'
+      - 'promot(e|es|ing) (other|competing) events'
+    strong:
+      - "(don.?t|do not|can.?t|cannot) (own|access|export) (our |my |the )?(attendee|customer|buyer)"
+      - 'promot(e|es|ing) (other|competing) events'
+  local_payments:
+    label: Local payment methods (UPI, Razorpay, regional)
+    ticmint_fit: 0.9
+    patterns:
+      - '\bupi\b'
+      - 'razorpay'
+      - 'paytm'
+      - '\binr\b|rupee'
+      - 'payment (method|option|gateway)s? (not|isn.?t|aren.?t)'
+      - "(doesn.?t|does not) (support|accept) (upi|indian|local)"
+      - 'only (stripe|paypal)'
+      - 'currency'
+    strong:
+      - "(doesn.?t|does not) (support|accept) (upi|indian|local)"
+      - 'only (stripe|paypal)'
+  support_quality:
+    label: Support quality
+    ticmint_fit: 0.6
+    patterns:
+      - 'customer (service|support)'
+      - '\bsupport\b'
+      - 'no (response|reply|answer)'
+      - 'unresponsive'
+      - "couldn.?t reach"
+      - 'chat ?bot'
+      - 'ignored'
+    strong:
+      - 'no (response|reply|answer)'
+      - 'unresponsive'
+      - 'worst (customer )?(service|support)'
+  feature_gaps:
+    label: Missing features
+    ticmint_fit: 0.7
+    patterns:
+      - 'missing features?'
+      - 'lack(s|ing)'
+      - 'no (reserved|seat|seating|assigned)'
+      - 'seat ?map'
+      - 'limited'
+      - "doesn.?t (support|allow|offer)"
+      - 'whatsapp'
+      - 'automation'
+      - 'abandoned cart'
+    strong:
+      - 'missing features?'
+      - "doesn.?t (support|allow|offer)"
+  reliability_checkin:
+    label: Reliability & event-day check-in
+    ticmint_fit: 0.7
+    patterns:
+      - 'crash(ed|es)?'
+      - 'downtime|outage'
+      - 'glitch|\bbugs?\b'
+      - '\bslow\b'
+      - 'scanner|scanning'
+      - 'check-?in'
+      - '\bqr\b'
+      - 'app (froze|crashed|failed)'
+    strong:
+      - 'crash(ed|es)? (on|during)'
+      - 'downtime|outage'
+      - 'check-?in (failed|broke|was a nightmare)'
+
+# Persona signals. Review sites are mostly ticket BUYERS; only organizer voices are leads.
+persona:
+  organizer:
+    - '\bmy (own )?events?\b'
+    - '\bour events?\b'
+    - 'as an? (event )?(organi[sz]er|promoter|host|planner)'
+    - '\battendees\b'
+    - '\bpayouts?\b'
+    - '\bwe (host|run|organi[sz]e|sell|use)\b'
+    - 'our (attendees|customers|clients|audience|brand|team)'
+    - 'ticket sales'
+    - '\bnonprofit\b|fundrais'
+    - '\bclients?\b'
+  attendee:
+    - '\bmy tickets?\b'
+    - 'bought (the |a |two |\d+ )?tickets?'
+    - 'purchased (the |a |two |\d+ )?tickets?'
+    - 'fake (event|ticket)s?'
+    - '\bscam\b'
+    - "wouldn.?t refund|refund (me|my)"
+    - 'tickets? (was|were) (invalid|not valid)'
+    - 'at the door'
+  organizer_roles: ['founder', 'owner', 'organi', 'event', 'director', 'manager', 'head', 'producer', 'promoter', 'coordinator', 'ceo', 'marketing']
+
+switch_intent:
+  - '(look(ing)?|search(ing)?) for (an? )?(alternative|replacement|something else)'
+  - '\bswitch(ed|ing)? (to|from|away)'
+  - '\bmov(ed|ing) (to|away|off)'
+  - '(never|not) (use|using) (it |them |this )?again'
+  - "(won.?t|will not|would not) (use|recommend)"
+  - "(don.?t|do not) recommend"
+  - 'dropp(ed|ing) (them|it)'
+  - 'going elsewhere'

@@ -1,0 +1,68 @@
+# The ONLY claims the drafter may make about Ticmint. Each cites where it was verified (retrieved 2026-10-20).
+# Every number in a draft must appear in `numbers` of a claim the draft uses, or the draft is flagged.
+claims:
+  fee_growth:
+    text: "On the Growth plan the Ticmint platform fee is 2%, plus payment gateway charges"
+    numbers: ["2%"]
+    source: https://ticmint.com/pricing/
+  fee_starter:
+    text: "the free Starter plan carries a 5% platform fee"
+    numbers: ["5%"]
+    source: https://ticmint.com/pricing/
+  growth_price_usd:
+    text: "Growth is $19/month ($15/month billed annually)"
+    numbers: ["$19", "$15"]
+    source: https://ticmint.com/pricing/
+  price_in:
+    text: "in India, plans start from ₹249/month"
+    numbers: ["₹249"]
+    source: https://ticmint.com/ (homepage FAQ)
+  price_uk:
+    text: "in the UK, plans start from £19/month"
+    numbers: ["£19"]
+    source: https://ticmint.com/ (homepage FAQ)
+  price_ae:
+    text: "in the UAE, plans start from AED 59/month"
+    numbers: ["AED 59"]
+    source: https://ticmint.com/ (homepage FAQ)
+  white_label:
+    text: "Growth includes a custom domain, branded checkout, and branded confirmation emails and QR tickets"
+    numbers: []
+    source: https://ticmint.com/white-label-ticketing/
+  data_owner:
+    text: "every attendee record and purchase belongs to you, and it is exportable"
+    numbers: []
+    source: https://ticmint.com/white-label-ticketing/
+  payout_t3:
+    text: "you connect your own payment gateway and funds settle to your account in T+3 days"
+    numbers: ["T+3"]
+    source: https://ticmint.com/white-label-ticketing/
+  payments_local:
+    text: "supported gateways include Razorpay, UPI, Stripe, Revolut and Apple Pay"
+    numbers: []
+    source: https://ticmint.com/ (homepage FAQ)
+  support_channels:
+    text: "Growth includes WhatsApp and email support, and Enterprise adds a dedicated account manager"
+    numbers: []
+    source: https://ticmint.com/pricing/
+  access_control:
+    text: "every ticket gets a dynamic QR code and there is a mobile scanning app with zone-based entry rules"
+    numbers: []
+    source: https://ticmint.com/white-label-ticketing/
+  features_core:
+    text: "it includes email marketing, abandoned-cart workflows, affiliate links and add-ons; seat management and API access are Enterprise"
+    numbers: []
+    source: https://ticmint.com/pricing/
+
+# Never claim these. Both are marked "Coming Soon" on the live pricing page (2026-10-20).
+forbidden_claims:
+  - "Meta Conversions API (marked Coming Soon on pricing page)"
+  - "Advanced automation workflows (marked Coming Soon on pricing page)"
+  - "Any competitor fee figure, unless the prospect's own volume is known"
+  - "Fee-saving percentages such as '35-60%' (appear on Ticmint FAQ, unsubstantiated)"
+
+# Known inconsistencies on Ticmint's own site, surfaced in the audit (Part C), not used in outreach.
+site_inconsistencies:
+  - "Homepage table says other platforms charge 5-8%+; homepage FAQ says Eventbrite is 3.5-8%+; ownership section says 8-15%"
+  - "White-label FAQ says platform fee is 1.5-7%; pricing page says 5% (Starter) and 2% (Growth)"
+  - "Homepage says 'fees from 2%' and 'Free to start' but 2% requires the paid Growth plan"

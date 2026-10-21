@@ -1,0 +1,7 @@
+competitor,category,organizer_complaints,avg_severity,switch_signals
+Eventbrite,fees_pricing,2,0.61,0
+Eventbrite,branding_whitelabel,1,0.88,1
+Eventbrite,payout_cashflow,1,0.95,1
+Ticket Tailor,local_payments,1,0.42,0
+Ticketsauce,feature_gaps,1,0.55,0
+Townscript,reliability_checkin,1,0.55,0
